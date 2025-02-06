@@ -1,0 +1,163 @@
+/*CSS by Laura Richter*/
+
+/*Imported Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+
+
+/*CSS Reset*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Root Colors*/
+:root{
+    --teal :#4CA7C0;
+    --purple: #484FB7;
+    --lavender: #6B8FE7;
+    --yellow: #E9BB57;
+    --pink:#D9526F;
+    --dark-gray:#1E1E1E; 
+    --white:#ffffff; 
+}
+
+body{
+    font-family: "Inter";
+    margin: 0 auto;
+    max-width: 450px;
+    background-color: var(--purple);
+}
+
+header h1{
+    background-color: var(--lavender);
+    text-align: center;
+    padding: 2rem;
+    padding-top: 3rem;
+    border-radius: 0px 0px 10px 10px;
+}
+
+header p{
+    background-color: var(--pink);
+    text-align: center;
+    color: vaR(--white);
+    padding-top: 1rem;
+    padding-bottom: 0.25rem;
+    border-radius: 0px 0px 10px 10px;
+}
+
+h1, h2{
+    font-family: "Kavoon";
+    color: var(--white);
+}
+
+h1{
+    font-size: 3em;
+}
+
+nav h2{
+    font-size: 1.5em;
+    color: var(--black);
+    text-transform: uppercase;
+    background-color: var(--yellow);
+    padding: 1rem;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+nav li{
+    visibility: hidden;
+}
+
+h2{
+    font-size: 2em;
+}
+
+h3{
+    font-size: 1.5em;
+    color: var(--yellow);
+    font-weight: bold;
+}
+
+h4{
+    font-size: 1.15em;
+}
+
+/*Original/Given styles
+
+body{
+    font-family: "Inter";
+    margin: 0 auto;
+    max-width: 450px;
+    background-color: var(--purple);
+}
+  
+h1, h2{
+    font-family: "Kavoon";
+    color: var(--white);
+}
+
+h1{
+    font-size: 3em;
+}
+
+nav h2{
+    font-size: 1.5em;
+}
+
+h2{
+    font-size: 2em;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+h4{
+    font-size: 1.15em;
+}*/
