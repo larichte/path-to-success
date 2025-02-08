@@ -125,14 +125,14 @@ nav li{
 h2{
     font-size: 2em;
     padding: 1rem;
-    padding-left: 0rem;
+    padding-left: 0.5rem;
 }
 
 h3{
     font-size: 1.5em;
     color: var(--yellow);
     font-weight: bold;
-    padding-left: 0rem;
+    padding-left: 0.5rem;
 }
 
 h4{
