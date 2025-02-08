@@ -73,11 +73,15 @@ body{
     background-color: var(--purple);
 }
 
+header{
+    padding-bottom: 2rem;
+}
+
 header h1{
     background-color: var(--lavender);
     text-align: center;
-    padding: 2rem;
-    padding-top: 3rem;
+    padding: 3rem;
+    padding-top: 4rem;
     border-radius: 0px 0px 25px 25px;
 }
 
@@ -115,19 +119,20 @@ nav h2{
 }
 
 nav li{
-    visibility: hidden;
+    display: none;
 }
 
 h2{
     font-size: 2em;
     padding: 1rem;
+    padding-left: 0rem;
 }
 
 h3{
     font-size: 1.5em;
     color: var(--yellow);
     font-weight: bold;
-    padding-left: 1rem;
+    padding-left: 0rem;
 }
 
 h4{
