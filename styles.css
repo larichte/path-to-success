@@ -75,6 +75,7 @@ body{
 
 header{
     padding-bottom: 2rem;
+    position: relative;
 }
 
 header h1{
@@ -88,7 +89,7 @@ header h1{
 header p{
     background-color: var(--pink);
     text-align: center;
-    color: vaR(--white);
+    color: var(--white);
     font-style: italic;
     padding-top: 1rem;
     padding-bottom: 0.5rem;
@@ -112,9 +113,9 @@ nav h2{
     text-transform: uppercase;
     background-color: var(--yellow);
     padding: 1rem;
-    position: fixed;
-    top: 0px;
-    right: 0px;
+    position: absolute;
+    top: 0;
+    right: 0;
     border-radius: 0px 0px 10px 10px;
 }
 
