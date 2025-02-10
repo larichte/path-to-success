@@ -69,7 +69,7 @@ body{
     font-family: "Inter";
     line-height: 1.5rem;
     margin: 0 auto;
-    max-width: 450px;
+    min-width: 450px;
     background-color: var(--purple);
 }
 
@@ -91,7 +91,7 @@ header p{
     color: vaR(--white);
     font-style: italic;
     padding-top: 1rem;
-    padding-bottom: 0.25rem;
+    padding-bottom: 0.5rem;
     border-radius: 0px 0px 25px 25px;
     width: 90%;
     margin: 0 auto;
@@ -125,14 +125,14 @@ nav li{
 h2{
     font-size: 2em;
     padding: 1rem;
-    padding-left: 0.5rem;
+    padding-left: 1rem;
 }
 
 h3{
     font-size: 1.5em;
     color: var(--yellow);
     font-weight: bold;
-    padding-left: 0.5rem;
+    padding-left: 1rem;
 }
 
 h4{
@@ -150,7 +150,7 @@ p{
     background-color: var(--white);
     border-radius: 10px;
     padding: 1.5rem;
-    margin: 1rem;
+    margin: 1rem 2rem;
 }
 
 #why{
